@@ -13,6 +13,7 @@
 --------------------------------------------------------------*/
 body {
     background-color: #402218cf;
+    width: fit-content;
 }
 
 ::-webkit-scrollbar {
@@ -142,7 +143,7 @@ body {
 }
 
 .beranda span {
-    color: #080808fa;
+    color: #f30606;
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -566,6 +567,35 @@ footer h1 a:hover {
 }
 
 @media screen and (max-width:600px) {
+    .nav-menu {
+        width: 100%;
+    }
+
+    .beranda span {
+        font-size: 30px;
+    }
+
+    .tentang img {
+        width: 300px;
+        height: 260px;
+    }
+
+    .area-tentang {
+        width: 300px;
+    }
+
+    .main-carousel {
+        width: 95%;
+    }
+
+    .main-carousel .carousel-cell img {
+        margin: 10px;
+    }
+}
+@media screen and (max-width:350px) {
+    
+
+    
     .nav-menu {
         width: 100%;
     }
